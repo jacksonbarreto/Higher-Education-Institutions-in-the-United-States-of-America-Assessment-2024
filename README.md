@@ -2,31 +2,13 @@
 
 This repository contains a dataset of higher education institutions in the United States of America. This dataset was compiled in response to a cybersecurity research of American higher education institutions' websites [1]. The data is being made publicly available to promote open science principles [2].
 
-## Data
-
-The data includes the following fields for each institution:
-
-- Id: A unique identifier assigned to each institution.
-- Region: The federal state in which the institution is located.
-- Name: The full name of the institution.
-- Category: Indicates whether the institution is public or private.
-- Url: The website of the institution.
-
 ## Methodology
 
-The dataset was obtained from the Higher Education Integrated Data System (IPEDS) website [3], which is administered by the National Center for Education Statistics (NCES). NCES serves as the primary federal entity for collecting and analyzing education-related data in the United States. The data was collected on February 2, 2023.
+The data was obtained from a list of schools in the repository [3], where the scanner will process the data by checking dnssec, https, axfr and the security headers based on the URL of each of the institutions on the list. The results of this scanner were stored in the raw folder of this repository. 
 
-The initial list of institutions was derived from the IPEDS database using the following criteria: (1) US institutions only, (2) degree-granting institutions, primarily bachelor's or higher, and (3) industry classification, which includes: public 4 - year or above, private not-for-profit 4 years or more, private for-profit 4 years or more, public 2 years, private not-for-profit 2 years, private for-profit 2 years, public less than 2 years, private not-for-profit for-profit less than 2 years and private for-profit less than 2 years.
+The data obtained was sent to a list of each school informing them of the existence or correct implementation of each checker. This data was then passed to an analyzer [4], which will aggregate this data to give us a dimension of the implementation of these security requirements in educational institutions in the United States, by each state.
 
-The following variables have been added to the list of institutions: Control of the institution, state abbreviation, degree-granting status, Status of the institution, and Institution's internet website address. This resulted in a report with 1,979 institutions.
-
-The institution's status was labeled with the following values: A (Active), N (New), R (Restored), M (Closed in the current year), C (Combined with another institution), D (Deleted out of business), I (Inactive due to hurricane-related issues), O (Outside IPEDS scope), P (Potential new/add institution), Q (Potential institution reestablishment), W (Potential addition outside IPEDS scope), X ( Potential restoration outside the scope of IPEDS) and G (Perfect Children's Campus).
-
-A filter was applied to the report to retain only institutions with an A, N, or R status, resulting in 1,978 institutions. Finally, a data cleaning process was applied, which involved removing the whitespace at the beginning and end of cell content and duplicate whitespace. The final data were compiled into the dataset included in this repository.
-
-On November 3, 2024, a data update discovered that seven institutions had their teaching activities closed in a few States, Massachusetts, Pennsylvania, Virginia, South Dakota, and West Virginia with one closed institution in each State, and California with two closed institutions, where these institutions are namely, Pine Manor College, Hussian College-Philadelphia, Stratford University, Sioux Falls Seminary, Alderson Broaddus University, California Christian College, San Francisco Art Institute by the previously referenced states. It’s also important to note that all referenced institutions are private.      
-
-After the data update, the total number of institutions was reduced to 1,971. 
+The result of this parser generated the files that are at the root of this project.
 
 ## Usage
 
@@ -46,4 +28,5 @@ We would like to acknowledge the support of the Norte Portugal Regional Operatio
 
 1. Pending.
 2. S. Bezjak, A. Clyburne-Sherin, P. Conzett, P. Fernandes, E. Görögh, K. Helbig, B. Kramer, I. Labastida, K. Niemeyer, F. Psomopoulos, T. Ross-Hellauer, R. Schneider, J. Tennant, E. Verbakel, H. Brinken, and L. Heller, Open Science Training Handbook. Zenodo, Apr. 2018. [Online]. Available: [https://doi.org/10.5281/zenodo.1212496]
-3. Integrated Postsecondary Education Data System, "Compare Institutions", Fev 2023. [online]. Available: [https://nces.ed.gov/ipeds/use-the-data](https://nces.ed.gov/ipeds/use-the-data)
+3. Higher-Education-Institutions-in-the-United-States-of-America-Dataset. Available: [https://github.com/jacksonbarreto/Higher-Education-Institutions-in-the-United-States-of-America-Dataset/blob/main/heis_usa.csv]
+4. WebSecureScout-Analyzer. Available: [https://github.com/jacksonbarreto/WebSecureScout-Analyzer]
