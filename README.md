@@ -22,7 +22,7 @@ The repository includes:
 This data is available under the Creative Commons Zero (CC0) license and can be used for any purpose, including academic research purposes. We encourage the sharing of knowledge and the advancement of research in this field by adhering to open science principles [2].
 
 If you use this data in your research, please cite the source and include a link to this repository. To properly attribute this data, please use the following DOI:
-
+**[https://doi.org/10.5281/zenodo.14541483](https://doi.org/10.5281/zenodo.14541483)**
 
 ## Contribution
 
@@ -35,7 +35,7 @@ We would like to acknowledge the support of the Norte Portugal Regional Operatio
 ## References
 
 1. Pending.
-2. S. Bezjak, A. Clyburne-Sherin, P. Conzett, P. Fernandes, E. Görögh, K. Helbig, B. Kramer, I. Labastida, K. Niemeyer, F. Psomopoulos, T. Ross-Hellauer, R. Schneider, J. Tennant, E. Verbakel, H. Brinken, and L. Heller, Open Science Training Handbook. Zenodo, Apr. 2018. [Online]. Available: [https://doi.org/10.5281/zenodo.1212496]
+2. S. Bezjak, A. Clyburne-Sherin, P. Conzett, P. Fernandes, E. Görögh, K. Helbig, B. Kramer, I. Labastida, K. Niemeyer, F. Psomopoulos, T. Ross-Hellauer, R. Schneider, J. Tennant, E. Verbakel, H. Brinken, and L. Heller, Open Science Training Handbook. Zenodo, Apr. 2018. [Online]. Available: [https://doi.org/10.5281/zenodo.1212496](https://doi.org/10.5281/zenodo.1212496)
 3. Higher-Education-Institutions-in-the-United-States-of-America-Dataset. Available: [https://doi.org/10.5281/zenodo.7614862](https://doi.org/10.5281/zenodo.7614862)
 4. WebSecureScout. Available: [https://doi.org/10.5281/zenodo.8341875](https://doi.org/10.5281/zenodo.8341875)
 5. WebSecureScout-Analyzer. Available: [https://doi.org/10.5281/zenodo.7670956](https://doi.org/10.5281/zenodo.7670956)
