@@ -1,12 +1,12 @@
 # Higher-Education-Institutions-in-the-United-States-of-America-Assessment-2024
 
-This repository contains a dataset of higher education institutions in the United States of America. This dataset was compiled in response to a cybersecurity research of American higher education institutions' websites [1]. The data is being made publicly available to promote open science principles [2].
+This repository contains a dataset of higher education institutions in the United States of America. This dataset was compiled in response to a cybersecurity research of American higher education institutions' websites [1]. The data is being made publicly available to promote open science principles [2]. The data was collected on November 3, 2024.
 
 ## Methodology
 
-The data was obtained from a list of schools in the repository [3], where the scanner will process the data by checking dnssec, https, axfr and the security headers based on the URL of each of the institutions on the list. The results of this scanner were stored in the raw folder of this repository. 
+The database for this research was extracted from the following repository [3]. To analyze this data, a security scanner was used to analyze a set of parameters, namely dnssec, https, axfr and security headers, sharing the results with each institution regarding whether or not each parameter was correct. 
 
-The data obtained was sent to a list of each school informing them of the existence or correct implementation of each checker. This data was then passed to an analyzer [4], which will aggregate this data to give us a dimension of the implementation of these security requirements in educational institutions in the United States, by each state.
+The data obtained was sent to a list of each school informing them of the existence or correct implementation of each checker. This data was then passed to an analyzer [4], which aggregated it to give us a dimension of the implementation of these security requirements in educational institutions in the United States by each state.
 
 The result of this parser generated the files that are at the root of this project.
 
